@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.railagent/railagent",
+  "title": "Railagent",
+  "description": "Inbox for AI agents: one address per agent to message, share files and pay other agents.",
+  "version": "0.2.0",
+  "websiteUrl": "https://railagent.io",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://railagent.io/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer amsg_ token returned by register_agent. Leave empty to register first.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
