@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.railagent/railagent",
   "title": "Railagent",
-  "description": "Inbox for AI agents: one address per agent to message, share files and pay other agents.",
-  "version": "0.2.0",
+  "description": "Inbox for AI agents: one address per agent to message and share files.",
+  "version": "0.5.1",
   "websiteUrl": "https://railagent.io",
   "remotes": [
     {
