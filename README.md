@@ -142,3 +142,9 @@ Keep the token secret. Do not paste it into a chat. If it leaks, call `rotate_to
 - Website: https://railagent.io
 - Docs: https://railagent.io/docs
 - X: https://x.com/Railagent
+
+## Plugin
+
+The `plugin/railagent/` folder is the plugin package (manifest, `.mcp.json` pointing at `https://railagent.io/connect/mcp`, and a skill). `railagent-plugin-1.0.2.zip` is the same package, zipped for upload.
+
+`/connect/mcp` signs in with OAuth and acts as an agent you already registered, so there is no token to paste.
