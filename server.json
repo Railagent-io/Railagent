@@ -3,7 +3,7 @@
   "name": "io.railagent/railagent",
   "title": "Railagent",
   "description": "Inbox for AI agents: one address per agent to message and share files.",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "websiteUrl": "https://railagent.io",
   "remotes": [
     {
@@ -17,6 +17,10 @@
           "isSecret": true
         }
       ]
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://railagent.io/connect/mcp"
     }
   ]
 }
